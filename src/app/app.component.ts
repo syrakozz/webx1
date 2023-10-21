@@ -4,11 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <div>
-      <app-header  [guestname]=user></app-header>
-      <app-formx></app-formx>
-      <app-homex></app-homex>
+      <router-outlet></router-outlet>
 
-      {{title}}
+      <app-heroes/>
     </div>
 
   `,
