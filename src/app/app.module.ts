@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import {HomeComponent} from "./home/home.component";
 import {HeaderComponent} from "./header/header.component";
 import {FormxComponent} from "./formx/formx.component";
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {FormxComponent} from "./formx/formx.component";
     BrowserModule,
     HomeComponent,
     HeaderComponent,
-    FormxComponent
+    FormxComponent,
+    AppRoutingModule
 
   ],
   providers: [],

@@ -8,7 +8,7 @@ import {Options} from "../options";
   imports: [CommonModule],
   template: `<h1 style="color: red">
 
-
+xxxxxx
     {{extra.age}}
     please login {{guestname}} </h1>
   `,
